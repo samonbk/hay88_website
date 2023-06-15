@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+section{
+    background-color: #394466;
+}
+html{
+    background-color: #394466;
+    transition: 2s;
+}
+body{
+    background-color: #394466;
+}
+.mycontainer{
+    background-color: #394466;
+}
+.sectoin-top{
+    background-color: #394466;
+}
+.topside{
+    height: 75px;
+    background-color: #1C233D;
+}
+.logo-service{
+    display: flex;
+    height: 100%;
+    width: 70%;
+    margin: 0px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 250px;
+    height: 100%;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.logo2{
+    display: none;
+    width: 120px;
+    height: 60px;
+}
+.logo2 img{
+    width: 100%;
+    height: 100%;
+}
+.service{
+    width: 400px;
+    border: 1px red;
+}
+.serv-btn{
+    padding: 7px 20px;
+    background-color: #EACE9A;
+    border-radius: 25px;
+    border: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-container{
+    position: sticky;
+    width: 100%;
+    background-color: #5121BA;
+}
+.nav-width{
+    position: sticky;
+    padding: 0px;
+}
+.container-fluid{
+    padding: 0px;
+}
+.ul-list li a{
+    color: white;
+    font-weight: bold;
+}
+.ul-list li{
+    margin: 0px 15px;
+}
+.nav-item img{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.nav-tem a{
+    width: 300px;
+    display: flex;
+}
+.nav-item:hover a{
+    color: red;
+}
+.width80{
+    width: 70%;
+    margin: 0px auto;
+}
+
+.slideshow{
+    max-width: 100%;
+    max-height: 400px;
+}
+.slid-container{
+    max-width: 100%;
+    max-height: 100%;
+}
+.w100-h100{
+    width: 100%;
+    height: 100%;
+}
+.textshow{
+    margin: 20px auto;
+    padding: 8px 3px;
+    border: 4px solid yellow;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.carousel-inner{
+    max-height: 400px;
+}
+.carousel-item{
+    width: 100%;
+    height: 100%;
+}
+.mt-17{
+    margin-top: 17px;
+}
+/*section-mid*/
+
+.section-mid{
+    background-color: #394466;
+}
+.purple-bar{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #162142;
+    color: #fff;
+}
+.box-contain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.box1{
+    height: 300px;
+    width: 230px;
+    font-weight: bold;
+    background-color: #162142;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    margin: 10px 10px;
+}
+.margin-10{
+    margin-top: 10px;
+}
+.box1 img{
+    width: 100%;
+    height: 75%;
+    border-radius: 10px;
+}
+.box1 h5{
+    font-size: 28px;
+    margin-top: 5px;
+}
+.box1:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.red-btn{
+    margin-top: 5px;
+    padding: 5px 0px;
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+}
+.red-btn:hover{
+    background-color: rgb(158, 5, 5);
+}
+.box2-contain{
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.box2{
+    width: 400px;
+    margin: 10px 10px ;
+    margin-top: 10px;
+}
+.box2 img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.box2:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hay88{
+    color: #fff;
+}
+.imghay88{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin: 0px auto;
+}
+.imghay88 img{
+    width: 100%;
+}
+.hay881{
+    color: #C3C302;
+}
+.section-bottom{
+    margin-top: 30px 0px;
+    padding: 30px;
+    color: #fff;
+    background-color: #1C233D;
+    width: 100%;
+}
+.box3{
+    width:280px ;
+    margin: 10px;
+}
+.green-text{
+    color: green;
+}
+.small-line{
+    width: 40px;
+    height: 3px;
+    background-color: #415285;
+}
+#myBtn{
+    border: none;
+    padding: 12px;
+    background-color: dodgerblue;
+    position: fixed;
+    bottom: 18px;
+    right: 18px;
+    z-index: 10;
+    border-radius: 7px;
+}
+
+#video{
+    width: 100%;
+}

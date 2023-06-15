@@ -1,0 +1,107 @@
+@media (min-width: 320px) and (max-width: 480px){
+    
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .width80{
+        width: 100%;
+        padding: 9px;
+    }
+    .logo-service{
+        width: 100%;
+    }
+    /* .carousel-inner{
+        min-height: 100px;
+    } */
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col{
+        width: 100%;
+    }
+    .box1{
+        margin: 4px;
+        width: 160px;
+        height: auto;
+    }
+    .box1 img{
+        width: 100%;
+        height: auto;
+    }
+    .box1 h5{
+        font-size: 19px;
+    }
+    .box1 p{
+        font-size: 17px;
+    }
+    .logo{
+        display: none;
+    }
+    .topside{
+        height: 60px;
+    }
+    .logo-service{
+        display: flex;
+        justify-content: center;
+    }
+    .serv-btn{
+        font-size: 16px;
+    }
+    .logo2{
+        display: block;
+        max-height: 40px;
+    }
+    .textshow{
+
+        padding: 5px 3px;
+        font-size: 14px;
+        border: 2px solid yellow;
+    }
+    .box3{
+        width: 100%;
+        margin: 0px;
+    }
+    .box-contain{
+        width: 100%;
+    }
+    .section-bottom{
+        padding: 0px;
+    }
+    
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    .width80{
+        width: 95%;
+    }
+    .logo2{
+        display: block;
+    }
+    .logo{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .width80{
+        width: 90%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    .width80{
+        width: 80%;
+    }
+}
+@media (max-width: 320px){
+    box1{
+        width: 100%;
+    }
+    .width80{
+        width: 100%;
+    }
+}
